@@ -1,4 +1,5 @@
 body{
+font-family: 'Rye', cursive;
 font-family: 'Open Sans', sans-serif;
 }
 html {
@@ -12,6 +13,7 @@ a:active, a:visited, a:focus {
 	display:table-cell;
 	vertical-align:middle;
 }
+
 .main {
 	position: relative;
 	display: table;
@@ -26,41 +28,42 @@ a:active, a:visited, a:focus {
 	z-index: 1;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.35);
 }
 .main-heder{
 	position: relative;
 	z-index: 2;
 }
 .main h1{
+	font-family:'Rye', cursive ;
 	margin-bottom: 1.4rem;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 4.8rem;
+	color: #e0c39b;
 }
 .main p{
 	font-size: 3rem;
 	font-weight: 300;
 }
 .main-line{
-	width: 200px;
+	width: 350px;
 	height: 1px;
 	background-color: #fff;
 	margin: 0 auto;
 }
 .main-down{
+	font-family: 'Open Sans', sans-serif;
 	position: absolute;
 	color: #fff;
 	z-index: 4;
 	bottom: 2rem;
 	display: inline-block;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	width: 50px;
 	height: 50px;
-	border-radius: 50%;
-	border: 1px solid transparent;
-	line-height: 50px;
-	left: 50%;
+	line-height: 25px;
+	left: 48.5%;
 	margin-left: -25px;
 	transition: 0.2s;
 }
@@ -106,7 +109,7 @@ a:active, a:visited, a:focus {
 .footer strong {
 	font-weight: 300;
 	font-style: 3.4rem;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 .social-links{
 	margin: 2rem auto;
